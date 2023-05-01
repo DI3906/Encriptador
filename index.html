@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <h1><img src="img/logoo.png" class="logo"></h1>
+    </header>
+
+    <main>
+        <div class="entrada">
+            <textarea class="area-txt" id="area-txt" placeholder="Ingrese el texto aqui" pattern="[a-z]" spellcheck="false"></textarea> 
+
+            <div class="btn-info">
+                <div class="info">
+                    <img src="img/info.png" class="i">
+                    <p>Solo letras minúsculas y sin acentos</p>
+                </div>
+                <div class="botones">
+                    <input type="button" value="Encriptar" class="btnEncriptar" name="btnEncriptar">
+                    <input type="button" value="Desencriptar" class="btnDesencriptar">
+                </div>
+            </div>
+        </div>
+        
+        <div class="resultado">
+            <img src="img/sintxt.png" class="mono" id="img">
+            <h2 id="titulo">Ningún mensaje fue encontrado</h2>
+            <p id="parrafo">Ingrese el texto que desees encriptar o desencriptar.</p>
+            <!--<p id="resultado-txt"></p>-->
+            <textarea class="txt-resultado"></textarea>
+            <input type="button" value="Copiar" class="btnCopiar" id="btnCopiar">
+        </div>
+    </main>
+
+    <footer>
+        <img src="img/logo-git.svg">
+        <div class="datos">
+            <p>Diego Garcia</p>
+            <p>Estudiante de Programación</p>
+            <p class="copyright">&copy Copyright - 2023</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

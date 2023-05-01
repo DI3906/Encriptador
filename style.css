@@ -1,0 +1,158 @@
+body{
+    background: #E5E5E5;
+    font-family: 'Inter', sans-serif;
+}
+
+.logo{
+    width: 7rem;
+    height: auto;
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-left: 12%;
+}
+
+.area-txt{
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    background: none;
+    border: 0;
+    outline: none;
+    margin-top: 5%;
+    width: 100%;
+    height: 50%;
+    resize: none;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    margin-bottom: 2%;
+    margin-top: 10%;
+    color: #495057;
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+}
+
+.i{
+    width: 12px;
+    height: auto;
+    margin-right: 1%;
+
+}
+
+.btnEncriptar{
+    background: #0A3871;
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    padding: 24px;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.btnDesencriptar{
+    background: #D8DFE8;
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    border-color: #0A3871;
+    padding: 24px;
+    color: #0A3871;
+    font-size: 16px;
+    margin-left: 5%;
+}
+
+.resultado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #ffffff;
+    height: 37rem;
+    width: 22rem;
+    border-radius: 32px;
+    margin-left: 20%;
+    margin-top: -5rem;
+}
+
+.mono{
+    width: 300px;
+    height: auto;
+}
+
+.resultado h2{
+    font-size: 24px;
+    font-weight: bold;
+    color: #343A40;
+    text-align: center;
+}
+
+.resultado p{
+    font-size: 16px;
+    color: #495057;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.txt-resultado{
+    display: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    color: #495057;
+    background: none;
+    border: 0;
+    /*outline: none;
+    margin-top: 5%;*/
+    width: 90%;
+    height: auto;
+    resize: none;
+
+}
+
+.btnCopiar{
+    display: none;
+    background: #FFFFFF;
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    border-color: #0A3871;
+    padding: 24px;
+    color: #0A3871;
+    font-size: 16px;
+    margin-top: 5%;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: #0A3871;
+    margin-top: 2.5%;
+    padding-top: 0.5%;
+}
+
+footer img{
+    width: 3rem;
+}
+
+.datos{
+    margin-left: 1em;
+    color: #e5e5e5;
+    font-size: 12px;
+}
+
+
+.copyright{
+    font-style: italic;
+}
