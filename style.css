@@ -1,5 +1,5 @@
 body{
-    background: #E5E5E5;
+    background: #F3F5FC;
     font-family: 'Inter', sans-serif;
 }
 
@@ -104,14 +104,14 @@ main{
 }
 
 .txt-resultado{
-    display: none;
+    /*display: none;*/
     font-family: 'Inter', sans-serif;
     font-size: 24px;
     color: #495057;
     background: none;
     border: 0;
-    /*outline: none;
-    margin-top: 5%;*/
+    outline: none;
+    margin-top: 5%;
     width: 90%;
     height: auto;
     resize: none;
@@ -155,4 +155,102 @@ footer img{
 
 .copyright{
     font-style: italic;
+}
+
+/* A J U S T E  A  D I F E R E N T E S  R E S O L U C I O N E S */
+@media screen and (max-width:480px) {
+    main{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+        margin-left: 3rem;
+    }
+
+    .botones{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btnDesencriptar{
+        margin-top: 4%;
+        margin-left: 0%;
+    }
+
+    .mono{
+        display: none;
+    }
+
+    .resultado{
+        max-width: 90%;
+    }
+
+    .resultado h2{
+        margin-top: 5%;
+    }
+
+    .txt-resultado{
+        max-width: 90%;
+        margin-bottom: 6%;
+    }
+
+    .btnCopiar{
+        max-width: 90%;
+        margin-bottom: 6%;
+    }
+
+}
+
+/*T A B L E T*/
+@media screen and (max-width:768px) {
+    main{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+        margin-left: 3rem;
+    }
+
+    .logo{
+        margin-left: 1rem;
+    }
+
+    .area-txt{
+        width: 42rem;
+        height: 25rem;
+    }
+
+    .mono{
+        display: none;
+    }
+
+    .resultado h2{
+        padding-top: 5%;
+    }
+
+    .resultado{
+        width: 43rem;
+        height: auto;
+        margin-left: 0;
+        margin-top: 10%;
+        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+        
+    }
+
+    .txt-resultado{
+        width: 36rem;
+        height: auto;
+        margin-top: 5%;
+    }
+
+    .btnCopiar{
+        width: 36rem;
+        height: 4rem;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+
+    footer{
+        margin-top: 10%;
+        width: 100%;
+        height: 4.5rem;
+    }
 }
